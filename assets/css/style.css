@@ -1,0 +1,61 @@
+.commetBox textarea {
+    width: 80%;
+    margin: 1% 0% 0% 15%;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.commetToCommentBox textarea {
+    width: 80%;
+    margin: 1% 0% 0% 5%;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.commetBox input {
+    width: 80%;
+    margin: 2% 0% 0% 15%;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.commetToCommentBox input {
+    width: 80%;
+    margin: 5% 0% 0% 5%;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+.floatLeft {
+    float: left;
+}
+.time{
+    padding-left: 20px;
+}
+.commentDiv {
+    margin: 1% 0% 0% 15%;
+    padding: 10px;
+}
+.likeShare .commentDiv {
+    margin: 1% 0% 0% 5%;
+    padding: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+.comment {
+    padding-top :10px;
+}
+.icon {
+    width: 10px;
+    cursor: pointer;
+}
+label {
+    cursor: pointer;
+}
+.ng-hide {
+    display: none;
+}
