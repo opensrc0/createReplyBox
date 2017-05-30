@@ -61,8 +61,10 @@ function getPrintingDate (initialDate) {
         return 'a second ago';
     } else if(seconds > 60 && seconds < 3600) {
         return parseInt(seconds/60)+' min ago';
-    } else if(seconds > 3600) {
-        return parseInt(seconds/60*60) + 'days ago';
+    } else if(seconds > 3600 && seconds < 216000) {
+        return parseInt(seconds/(3600)) + ' hours ago';
+    } else if(seconds > 216000) {
+        return parseInt(seconds/(216000)) + ' days ago';
     }
 }
 
